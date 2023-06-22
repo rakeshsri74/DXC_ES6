@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="demo">Fetch a file to change text</p>
+    <script>
+        getText("Notes.txt");
+
+       async function getText(file){
+        let x = await fetch(file);
+        let y = await x.text();
+        document.getElementById("demo").innerText=y;
+       }
+      
+    </script>
+</body>
+</html>

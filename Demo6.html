@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun1(){
+            var name = document.getElementById("userName").value;
+            if(name === ""){
+                alert("Name should not left blank");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <label for="userName">User Name</label>
+                <input type="text" id="userName" />
+            </tr>
+            <tr>
+                <input type="submit" onclick="fun1()" value="OK" />
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+What is JavaScript?
+
+There are some disadvantages of using JavaScript?
+
+1.Client Side security
+2.Browser Support
+3.Lack of debugging facility
+4.Single inheritance
+5.Rendering stop
+
+ES6:European Computer Manufacturer Association(ECMA Script) or ES
+
+Es6 closure:
+	A closure is a function having access to the parent scope,even after the parent function has closed.
+
+Promise:
+	Promise object contains both the producing code and calls to the consuming code
+
+Asynchronous:
+	
+
+Async and await:
+	it make promises easier to write
+	async makes a function return a Promise
+	await makes a function wait for a Promise
+
+Error
+
+Stack trace
+
+Fetch API
+	Fetch is based on async and await.
+
+For
+
+Difference between let and var
+
+	
